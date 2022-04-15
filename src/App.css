@@ -1,0 +1,82 @@
+#light {
+  background: #fff;
+}
+#dark {
+  background: #041930;
+}
+#light #form {
+  background: #fff;
+}
+#dark #form {
+  background: #041930;
+}
+/* For switch  */
+
+#light #switch {
+  color: rgb(243, 220, 10);
+}
+#dark #switch {
+  color: #fff;
+}
+/* body */
+body {
+  background: #fff;
+}
+/* For email label */
+#light #emailLabel {
+  color: black;
+}
+#dark #emailLabel {
+  color: #fff;
+}
+/* for paragraph */
+#light .para {
+  color: black;
+  text-align: justify;
+}
+#dark .para {
+  color: rgba(255, 255, 255, 0.473);
+}
+
+/* For input area */
+#demo {
+  box-shadow: none;
+}
+/* input area */
+#dark #demo {
+  background: #041930;
+}
+#light #email {
+  background: #fff;
+}
+#dark #email {
+  background: #041930;
+}
+#dark #email {
+  background: #041930;
+}
+
+/* link style */
+ul {
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0px 0px 10px 5px rgb(165, 162, 162);
+}
+li {
+  list-style-type: none;
+  margin: 10px;
+}
+li:hover {
+  background-color: #0a407a7e;
+  border-radius: 5px;
+}
+li a {
+  display: block;
+  text-decoration: none;
+}
+#links {
+  flex-direction: row;
+  justify-items: center;
+  margin: 10px;
+  text-decoration: none;
+}
